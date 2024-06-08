@@ -8,6 +8,8 @@ public class Binario {
         System.out.print("Qual número decimal voce quer converter? ");
         int numeroDecimal = scan.nextInt();
         System.out.println("Convetido em Binario " + converteEmBinario(numeroDecimal));
+
+        scan.close();
     }
 
     public static String converteEmBinario(int numeroDecimal) {
